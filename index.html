@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game of Life</title>
+    </head>
+    <body>
+        <h1>Game of Life</h1>
+        <button onclick="nextGeneration()">Next Generation</button>
+        <br>
+        <button id="button_play" onclick="setPlay()">►</button>
+        <button id="button_clear" onclick="clearGrid()">Clear</button>
+        <!-- <button onclick="setTimeout(myFunction(), 50)">Try it</button> -->
+        <br>
+        <canvas id="gameCanvas" width="500" height="500">
+            
+        </canvas>
+        <script src="./scripts/gameOfLife.js"></script>
+    </body>
+</html>
